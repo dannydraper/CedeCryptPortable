@@ -1,0 +1,65 @@
+Product Name:
+CedeCrypt Portable
+
+Version:
+2.45
+
+Release Date:
+22/08/2009
+
+Short Description:
+CedeCrypt Portable encrypts all flash drives and other portable devices.
+
+Long Description:
+
+CedeCrypt Porttable does not require installation and can be run directly from the memory stick, or external hard disk. The application is contained within a single executable file which makes it extremely portable across PC's. This means you can easily drag items onto your portable storage device, and take it with you to your Office and instantly copy and decrypt the encrypted items from your encrypted storage device onto your office PC and work on them.
+
+Once secured by CedeCrypt’s powerful encryption standard, sensitive files and folders are stored safely on the mobile storage device. To work on encrypted files, simply open CedeCrypt Portable on the mobile storage device, enter your session password, and drag and drop files or folders to a computer. Once work is complete, drag and drop files or folders back into the CedeCrypt Portable dialogue box where they are automatically encrypted and protected against loss should the memory storage device be misplaced or stolen. 
+
+CedeCrypt Portable allows you to secure data on any mobile memory storage device in the windows environment, including memory sticks, flash drives and removable hard drives. Encrypt your data using CedeCrypt Portable and feel safe knowing that, while on the move, sensitive data is kept safe from prying eyes. 
+
+
+
+Category:
+Security Software->Encryption Software
+
+
+Keywords:
+security
+encryption
+flash
+drag and drop
+protection
+
+Product Download URL:
+http://www.cedesoft.com/apps/CedeCryptPortable.exe
+
+File Size:
+1.85MB
+
+
+Additional Requirements:
+Flash Drive, Windows 2000, Windows XP, Windows Server 2003, Windows Server 2008, Windows Vista, Windows 7 (32/64 bit)
+
+Executable Filename:
+CedeCryptPortable.exe
+
+Sample Registration Code:
+FJXI868O1-O723G38M6-CPX51U81R-O3FRQJWTE-BQ81RRLTB-WKVK1DBPB-1RQPTDADR-XTFGLAJLC-LW8VO1Z45-1Q1OF5I4G-ADHPJIXEQ-QMYBDENF6-BUSAXXL
+
+License Type:
+Trial
+
+Price:
+
+9.99
+
+Currency:
+GBP
+
+Buy URL:
+http://www.cedesoft.com/ProductDetails.aspx?ID=2
+
+Trial Limitations:
+Feature Limited Trial, limited to a max of 256MB of encrypted data.
+

@@ -1,0 +1,190 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource."
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON                ICON                    "Res\\AppMain.ico"
+IDI_ICONSMALL           ICON                    "Res\\AppMain.ico"
+ID_LVICONSMALL          ICON                    "Res\\LVIconSmall.ico"
+ID_LVICONLARGE          ICON                    "Res\\LVIconLarge.ico"
+ID_LVICONFOLDER         ICON                    "Res\\folder.ico"
+ID_LVICONLARGEFOLDER    ICON                    "Res\\largefolder.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_STDBTNBASE          BITMAP                  "Res\\Stdbtnbase.bmp"
+IDB_STDBTNHIGH          BITMAP                  "Res\\StdbtnbaseHL.bmp"
+IDB_STDBTNDOWN          BITMAP                  "Res\\StdbtnbaseDN.bmp"
+IDB_DIAGHEADER          BITMAP                  "Res\\Diagheader.bmp"
+IDB_VSCROLLBASE         BITMAP                  "Res\\VScrollbase.bmp"
+IDB_HEADER              BITMAP                  "Res\\Header.bmp"
+IDB_PASSHEADER          BITMAP                  "Res\\Passheader.bmp"
+IDB_ABOUTHEADER         BITMAP                  "Res\\Aboutbanner.bmp"
+IDB_LICENSEIMAGE        BITMAP                  "Res\\LicenseImage.bmp"
+IDB_SIDEBANNER          BITMAP                  "Res\\SideBanner.bmp"
+IDB_ALGORITHMSIMAGE     BITMAP                  "Res\\Algorithms.bmp"
+IDB_BTNPARENTNORM       BITMAP                  "Res\\BtnParentNM.bmp"
+IDB_BTNPARENTHIGH       BITMAP                  "Res\\BtnParentHL.bmp"
+IDB_BTNPARENTDOWN       BITMAP                  "Res\\BtnParentDN.bmp"
+IDB_BTNDELETENORM       BITMAP                  "Res\\BtnDeleteNM.bmp"
+IDB_BTNDELETEHIGH       BITMAP                  "Res\\BtnDeleteHL.bmp"
+IDB_BTNDELETEDOWN       BITMAP                  "Res\\BtnDeleteDN.bmp"
+IDB_BTNICONVIEWNORM     BITMAP                  "Res\\BtnIconViewNM.bmp"
+IDB_BTNICONVIEWHIGH     BITMAP                  "Res\\BtnIconViewHL.bmp"
+IDB_BTNICONVIEWDOWN     BITMAP                  "Res\\BtnIconViewDN.bmp"
+IDB_BTNLISTVIEWNORM     BITMAP                  "Res\\BtnListViewNM.bmp"
+IDB_BTNLISTVIEWHIGH     BITMAP                  "Res\\BtnListViewHL.bmp"
+IDB_BTNLISTVIEWDOWN     BITMAP                  "Res\\BtnListViewDN.bmp"
+IDB_BTNDETAILVIEWNORM   BITMAP                  "Res\\BtnDetailViewNM.bmp"
+IDB_BTNDETAILVIEWHIGH   BITMAP                  "Res\\BtnDetailViewHL.bmp"
+IDB_BTNDETAILVIEWDOWN   BITMAP                  "Res\\BtnDetailViewDN.bmp"
+IDB_BTNADDNORM          BITMAP                  "Res\\BtnAddNM.bmp"
+IDB_BTNADDHIGH          BITMAP                  "Res\\BtnAddHL.bmp"
+IDB_BTNADDDOWN          BITMAP                  "Res\\BtnAddDN.bmp"
+IDB_BTNEXTRACTNORM      BITMAP                  "Res\\BtnExtractNM.bmp"
+IDB_BTNEXTRACTHIGH      BITMAP                  "Res\\BtnExtractHL.bmp"
+IDB_BTNEXTRACTDOWN      BITMAP                  "Res\\BtnExtractDN.bmp"
+IDB_PROGRESSBANNER      BITMAP                  "Res\\ProgressBanner.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// BINARY
+//
+
+IDB_PUBLICKEY           BINARY                  "Res\\CedeCryptPublicKey.dat"
+IDR_BINARY1             BINARY                  "Res\\TextOnlyPublicKey.dat"
+IDR_BINARY2             BINARY                  "Res\\KeyCanvas.dat"
+IDR_BINARY3             BINARY                  "Res\\NameCanvas.dat"
+IDR_BINDECRYPTOR        BINARY                  "Res\\Self-Decryptor.exe"
+IDR_BINARY5				BINARY					"Res\\cpkeycanvas.dat"
+IDR_BINLICENSER			BINARY					"Res\\CPUpdate.exe"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 254, 34
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "Processing..."
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Your protected folders are being encrypted.\n\nYour computer will resume shutdown / suspend / hibernation shortly...",IDC_STATIC,5,4,240,26
+END
+
+IDD_CRYPTDIALOG DIALOGEX 0, 0, 396, 134
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Progress"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_DIRDIALOG DIALOGEX 0, 0, 455, 53
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Listing Files and Folders..."
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 29
+    END
+
+    IDD_CRYPTDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 389
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 127
+    END
+
+    IDD_DIRDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 448
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 46
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
